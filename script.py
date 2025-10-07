@@ -1,6 +1,3 @@
-## This project is part of the MACHINE LEARNING/AI ENGINEER career path
-## Syllabus: https://www.codecademy.com/learn/paths/machine-learning-engineer
-
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
@@ -98,8 +95,6 @@ print(model.score(features_train, outcome_train))
 print(model.score(features_test, outcome_test))
 # 0.8772525886323974
 # 0.9322143653696723
-
-# perform exploratory analysis here:
 
 plt.scatter(outcome_test, outcome_predict, alpha=0.4)
 plt.xlabel('Winnings')
